@@ -1,2 +1,3 @@
-# icfpcontest2021.github.io
-Webpage
+# README
+
+This is a public webpage.
