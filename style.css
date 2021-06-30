@@ -1,0 +1,30 @@
+html {
+  background-color: #2e0f4d;
+  color: #eeeeee;
+  text-align: center;
+  font-family: monospace;
+  font-size: 3em;
+  margin-top: 1em;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  color: #fff;
+  margin: 1em;
+}
+
+section {
+  margin: 1em auto;
+  max-width: 800px;
+  text-align: left;
+}
+
+p {
+  margin: 2em;
+}
