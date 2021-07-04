@@ -2,6 +2,7 @@ build: \
 	_site/index.html \
 	_site/logo.svg \
 	_site/rules.html \
+	_site/prizes.html \
 	_site/style.css
 
 _site:

@@ -16,6 +16,7 @@ cat - <<EOF
     <nav>
       <a href="index.html">ICFPC2021</a>
       <a href="rules.html">Rules</a>
+      <a href="prizes.html">Prizes</a>
     </nav>
     $(cat "$1")
   </body>
