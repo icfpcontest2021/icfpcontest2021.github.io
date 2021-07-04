@@ -20,6 +20,10 @@ cat - <<EOF
       <a href="prizes.html">Prizes</a>
     </nav>
     $(cat "$1")
+    <footer>
+      Copyright © ICFPC2021 Organisers |
+      <a href="https://berlincodeofconduct.org/">Code of Conduct</a>
+    </footer>
   </body>
 </html>
 EOF

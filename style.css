@@ -26,5 +26,9 @@ section {
 }
 
 p {
-  margin: 2em;
+  margin: 2em .5em;
+}
+
+a {
+  color: #f9a1f1;
 }
