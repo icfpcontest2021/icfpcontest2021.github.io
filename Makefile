@@ -13,7 +13,7 @@ build: \
 _site:
 	mkdir _site
 
-_site/logo.svg:
+_site/logo.svg: | _site
 	cp logo.svg $@
 
 _site/style.css: style.css | _site
