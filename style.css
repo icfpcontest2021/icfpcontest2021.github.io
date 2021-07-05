@@ -8,13 +8,15 @@ html {
 }
 
 body {
-  margin: .5em;
+  margin: 0;
 }
 
 nav {
+  background-color: #462d7d;
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
+  justify-content: center;
+  padding: 0.5em;
 }
 
 nav a {
@@ -33,12 +35,13 @@ h2 {
 
 section {
   margin: 1em auto 3em auto;
+  padding: 0 0.5em;
   max-width: 800px;
   text-align: left;
 }
 
 p {
-  margin: 1em .5em;
+  margin: 1em 0;
 }
 
 a {
