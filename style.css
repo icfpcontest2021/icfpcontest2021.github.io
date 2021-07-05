@@ -45,6 +45,10 @@ a {
   color: #f9a1f1;
 }
 
+dt {
+  font-weight: bold;
+}
+
 footer {
   margin: 3em auto 1em auto;
 }
