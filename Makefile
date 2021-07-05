@@ -1,4 +1,7 @@
+UPDATES=$(shell find updates -type f)
+
 build: \
+	_site/feed.xml \
 	_site/index.html \
 	_site/logo.svg \
 	_site/prizes.html \
@@ -18,8 +21,15 @@ _site/style.css: style.css | _site
 _site/%.html: %.html template.sh | _site
 	./template.sh $< >$@
 
+_site/feed.xml: feed.sh $(UPDATES) | _site
+	./feed.sh >$@
+
+index.html: index.sh $(UPDATES)
+	./index.sh >$@
+
 clean:
 	rm -rf _site
+	rm index.html
 
 .DELETE_ON_ERROR:
 

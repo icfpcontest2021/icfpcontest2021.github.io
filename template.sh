@@ -11,6 +11,7 @@ cat - <<EOF
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>$TITLE</title>
     <link rel="stylesheet" href="style.css">
+    <link href="feed.xml" type="application/atom+xml" rel="alternate" title="Atom feed">
   </head>
   <body>
     <nav>
