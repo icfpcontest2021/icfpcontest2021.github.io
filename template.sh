@@ -18,6 +18,7 @@ cat - <<EOF
       <a href="index.html">ICFPC2021</a>
       <a href="rules.html">Rules</a>
       <a href="specification.html">Specification</a>
+      <a href="faq.html">FAQ</a>
       <a href="prizes.html">Prizes</a>
       <a href="about.html">About</a>
     </nav>

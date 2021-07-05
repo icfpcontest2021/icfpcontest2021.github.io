@@ -2,6 +2,7 @@ UPDATES=$(shell find updates -type f)
 
 build: \
 	_site/about.html \
+	_site/faq.html \
 	_site/feed.xml \
 	_site/index.html \
 	_site/logo.svg \
