@@ -3,11 +3,21 @@
   <title>ICFP Contest 2021</title>
   <link href="https://icfpcontest2021.github.io/"/>
   <link href="https://icfpcontest2021.github.io/feed.xml" rel="self"/>
-  <updated>2021-07-07T15:19:38+00:00</updated>
+  <updated>2021-07-07T15:38:58+00:00</updated>
   <author>
     <name>ICFP Contest 2021 Organisers</name>
   </author>
   <id>https://icfpcontest2021.github.io/</id>
+    <entry>
+      <title>PSA</title>
+      <link href="https://icfpcontest2021.github.io/"/>
+      <id>https://icfpcontest2021.github.io/updates/003-clothing.html</id>
+      <updated>2021-07-07T15:36:00+00:00</updated>
+      <summary type="html"><![CDATA[<p>
+  We strongly recommend participants this year to wear waterproof clothing and
+  leave their phone in a locker.
+</p>]]></summary>
+    </entry>
     <entry>
       <title>Atom Feed</title>
       <link href="https://icfpcontest2021.github.io/"/>
