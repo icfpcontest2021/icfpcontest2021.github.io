@@ -25,7 +25,8 @@ cat - <<EOF
     $(cat "$1")
     <footer>
       Copyright © ICFPC2021 Organisers |
-      <a href="https://berlincodeofconduct.org/">Code of Conduct</a>
+      <a href="https://berlincodeofconduct.org/">Code of Conduct</a> |
+      <a href="https://twitter.com/icfpcontest2021">@icfpcontest2021</a>
     </footer>
   </body>
 </html>
