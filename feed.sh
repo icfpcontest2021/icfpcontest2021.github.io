@@ -17,11 +17,12 @@ EOF
 for i in $(ls -r updates); do
   TITLE="$(head -n1 "updates/$i")"
   DATE="$(tail +2 "updates/$i" | head -n1 | tr ' ' 'T')"
+  SLUG="$(echo "$i" | sed 's/\..*//')"
   cat - <<EOF
     <entry>
       <title>$TITLE</title>
       <link href="https://icfpcontest2021.github.io/"/>
-      <id>https://icfpcontest2021.github.io/updates/$i</id>
+      <id>https://icfpcontest2021.github.io/#$SLUG</id>
       <updated>$DATE</updated>
       <summary type="html"><![CDATA[$(tail +3 "updates/$i")]]></summary>
     </entry>

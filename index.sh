@@ -14,9 +14,10 @@ for i in $(ls -r updates); do
   TITLE="$(head -n1 "updates/$i")"
   FORMAT="+%a, %d %B %H:%M %Z"
   DATE="$(date --date="$(tail +2 "updates/$i" | head -n1)" -u "$FORMAT")"
+  SLUG="$(echo "$i" | sed 's/\..*//')"
   cat - <<EOF
     <section>
-      <h2>$TITLE</h2>
+      <h2 id="$SLUG">$TITLE</h2>
       <strong>$DATE</strong>
       $(tail +3 "updates/$i")
     </section>
