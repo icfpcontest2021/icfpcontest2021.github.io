@@ -3,7 +3,7 @@
   <title>ICFP Contest 2021</title>
   <link href="https://icfpcontest2021.github.io/"/>
   <link href="https://icfpcontest2021.github.io/feed.xml" rel="self"/>
-  <updated>2021-07-08T16:32:34+00:00</updated>
+  <updated>2021-07-08T16:38:42+00:00</updated>
   <author>
     <name>ICFP Contest 2021 Organisers</name>
   </author>
@@ -11,7 +11,7 @@
     <entry>
       <title>PSA</title>
       <link href="https://icfpcontest2021.github.io/"/>
-      <id>https://icfpcontest2021.github.io/updates/004-psa.html</id>
+      <id>https://icfpcontest2021.github.io/#004-psa</id>
       <updated>2021-07-08T16:30:00+00:00</updated>
       <summary type="html"><![CDATA[<p>
     vbtib.lafvj<br>
@@ -21,7 +21,7 @@
     <entry>
       <title>PSA</title>
       <link href="https://icfpcontest2021.github.io/"/>
-      <id>https://icfpcontest2021.github.io/updates/003-clothing.html</id>
+      <id>https://icfpcontest2021.github.io/#003-clothing</id>
       <updated>2021-07-07T15:36:00+00:00</updated>
       <summary type="html"><![CDATA[<p>
   We strongly recommend participants this year to wear waterproof clothing and
@@ -31,7 +31,7 @@
     <entry>
       <title>Atom Feed</title>
       <link href="https://icfpcontest2021.github.io/"/>
-      <id>https://icfpcontest2021.github.io/updates/002-atom-feed.html</id>
+      <id>https://icfpcontest2021.github.io/#002-atom-feed</id>
       <updated>2021-07-05T09:52:00+00:00</updated>
       <summary type="html"><![CDATA[<p>
   An atom feed is <a href="feed.xml">now available for contest updates</a>.
@@ -40,7 +40,7 @@
     <entry>
       <title>Discord Server</title>
       <link href="https://icfpcontest2021.github.io/"/>
-      <id>https://icfpcontest2021.github.io/updates/001-discord-server.html</id>
+      <id>https://icfpcontest2021.github.io/#001-discord-server</id>
       <updated>2021-07-04T20:00:00+00:00</updated>
       <summary type="html"><![CDATA[<p>
   We have set up a Discord server for participants to communicate and
