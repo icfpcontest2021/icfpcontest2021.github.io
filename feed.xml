@@ -3,11 +3,31 @@
   <title>ICFP Contest 2021</title>
   <link href="https://icfpcontest2021.github.io/"/>
   <link href="https://icfpcontest2021.github.io/feed.xml" rel="self"/>
-  <updated>2021-07-09T08:50:59+00:00</updated>
+  <updated>2021-07-09T12:00:04+00:00</updated>
   <author>
     <name>ICFP Contest 2021 Organisers</name>
   </author>
   <id>https://icfpcontest2021.github.io/</id>
+    <entry>
+      <title>ICFPC2021 has started</title>
+      <link href="https://icfpcontest2021.github.io/"/>
+      <id>https://icfpcontest2021.github.io/#006-spec</id>
+      <updated>2021-07-09T12:00:00+00:00</updated>
+      <summary type="html"><![CDATA[<p>
+   Welcome to ICFPC2021!
+</p>
+<p>
+   We have published a first version of
+   <a href="specification.html">the specification</a>.
+</p>
+<p>
+  Teams can register, submit solutions and view the current scoreboard at
+  our web portal located at <a href="https://poses.live">poses.live</a>.
+</p>
+<p>
+  Good luck, and have fun!
+</p>]]></summary>
+    </entry>
     <entry>
       <title>PSA</title>
       <link href="https://icfpcontest2021.github.io/"/>
