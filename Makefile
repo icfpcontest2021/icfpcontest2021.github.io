@@ -9,6 +9,7 @@ build: \
 	_site/prizes.html \
 	_site/rules.html \
 	_site/specification.html \
+	_site/spec-v1.0.pdf \
 	_site/style.css
 
 _site:
@@ -16,6 +17,9 @@ _site:
 
 _site/logo.svg: | _site
 	cp logo.svg $@
+
+_site/%.pdf: %.pdf | _site
+	cp $< $@
 
 _site/style.css: style.css | _site
 	cp style.css $@
