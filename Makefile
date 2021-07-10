@@ -11,6 +11,7 @@ build: \
 	_site/specification.html \
 	_site/spec-v1.0.pdf \
 	_site/spec-v1.1.pdf \
+	_site/spec-v1.2.pdf \
 	_site/style.css
 
 _site:
