@@ -3,11 +3,34 @@
   <title>ICFP Contest 2021</title>
   <link href="https://icfpcontest2021.github.io/"/>
   <link href="https://icfpcontest2021.github.io/feed.xml" rel="self"/>
-  <updated>2021-07-09T22:19:56+00:00</updated>
+  <updated>2021-07-10T00:00:29+00:00</updated>
   <author>
     <name>ICFP Contest 2021 Organisers</name>
   </author>
   <id>https://icfpcontest2021.github.io/</id>
+    <entry>
+      <title>New problems added, HTTP API addition</title>
+      <link href="https://icfpcontest2021.github.io/"/>
+      <id>https://icfpcontest2021.github.io/#007-spec</id>
+      <updated>2021-07-10T00:00:00+00:00</updated>
+      <summary type="html"><![CDATA[<p>
+  We have added 19 new problems to <a href="https://poses.live/">poses.live</a>.
+</p>
+<p>
+  We would like to remind everyone that the Lightning Division ends in twelve
+  hours on Sat, 10 July 12:00 (noon) UTC.
+</p>
+<p>
+  To keep things exciting, we will freeze the scoreboard temporarily on
+  Sat, 10 July from 11:30 to 12:30 UTC.  We've also limited the scoreboard to
+  teams with at least one valid solution.
+</p>
+<p>
+  Additionally, we have updated <a href="specification.html">the
+  specification</a> with a new API endpoint to obtain some information about
+  submitted poses.
+</p>]]></summary>
+    </entry>
     <entry>
       <title>ICFPC2021 has started</title>
       <link href="https://icfpcontest2021.github.io/"/>
