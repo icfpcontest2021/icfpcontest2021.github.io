@@ -3,11 +3,21 @@
   <title>ICFP Contest 2021</title>
   <link href="https://icfpcontest2021.github.io/"/>
   <link href="https://icfpcontest2021.github.io/feed.xml" rel="self"/>
-  <updated>2021-07-10T13:14:44+00:00</updated>
+  <updated>2021-07-10T14:20:27+00:00</updated>
   <author>
     <name>ICFP Contest 2021 Organisers</name>
   </author>
   <id>https://icfpcontest2021.github.io/</id>
+    <entry>
+      <title>Correction in GLOBALIST specification</title>
+      <link href="https://icfpcontest2021.github.io/"/>
+      <id>https://icfpcontest2021.github.io/#009-spec</id>
+      <updated>2021-07-10T14:13:00+00:00</updated>
+      <summary type="html"><![CDATA[<p>
+  We fixed a naming inconsistency in the definition of the GLOBALIST bonus in
+  <a href="specification.html">the specification</a>.
+</p>]]></summary>
+    </entry>
     <entry>
       <title>Bonuses added to spec, new problems added</title>
       <link href="https://icfpcontest2021.github.io/"/>
