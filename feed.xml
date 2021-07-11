@@ -3,11 +3,30 @@
   <title>ICFP Contest 2021</title>
   <link href="https://icfpcontest2021.github.io/"/>
   <link href="https://icfpcontest2021.github.io/feed.xml" rel="self"/>
-  <updated>2021-07-10T23:59:54+00:00</updated>
+  <updated>2021-07-11T12:01:40+00:00</updated>
   <author>
     <name>ICFP Contest 2021 Organisers</name>
   </author>
   <id>https://icfpcontest2021.github.io/</id>
+    <entry>
+      <title>Final bonus added, new problems added</title>
+      <link href="https://icfpcontest2021.github.io/"/>
+      <id>https://icfpcontest2021.github.io/#011-spec</id>
+      <updated>2021-07-11T12:00:00+00:00</updated>
+      <summary type="html"><![CDATA[<p>
+We have now extended <a href="specification.html">the specification</a> with
+a last bonus. This is the last modification to the specification that will be made, barring unforeseen errors.
+</p>
+<p>
+    We will freeze the scoreboard on Mon, 12 July at 11:00 UTC.
+</p>
+<p>
+  Participants must submit their source code to be elligible for prizes.
+  This can be done via the team profile page in the portal.
+  We will accept submissions of source code
+  until Tue, 13 July at 00:00 UTC.
+</p>]]></summary>
+    </entry>
     <entry>
       <title>Added WALLHACK bonus to spec, more problems added</title>
       <link href="https://icfpcontest2021.github.io/"/>
