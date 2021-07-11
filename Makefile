@@ -16,6 +16,7 @@ build: \
 	_site/spec-v2.1.pdf \
 	_site/spec-v3.0.pdf \
 	_site/spec-v4.0.pdf \
+	_site/spec-v4.1.pdf \
 	_site/style.css
 
 _site:
