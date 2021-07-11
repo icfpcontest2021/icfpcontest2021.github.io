@@ -3,11 +3,21 @@
   <title>ICFP Contest 2021</title>
   <link href="https://icfpcontest2021.github.io/"/>
   <link href="https://icfpcontest2021.github.io/feed.xml" rel="self"/>
-  <updated>2021-07-11T12:05:09+00:00</updated>
+  <updated>2021-07-11T19:46:55+00:00</updated>
   <author>
     <name>ICFP Contest 2021 Organisers</name>
   </author>
   <id>https://icfpcontest2021.github.io/</id>
+    <entry>
+      <title>Minor clarification in specification</title>
+      <link href="https://icfpcontest2021.github.io/"/>
+      <id>https://icfpcontest2021.github.io/#012-spec</id>
+      <updated>2021-07-11T19:45:00+00:00</updated>
+      <summary type="html"><![CDATA[<p>
+  We added a clarification to the `WALLHACK` bonus in the
+  <a href="specification.html">the specification</a>.
+</p>]]></summary>
+    </entry>
     <entry>
       <title>Final bonus added, new problems added</title>
       <link href="https://icfpcontest2021.github.io/"/>
