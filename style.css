@@ -52,6 +52,14 @@ dt {
   font-weight: bold;
 }
 
+table {
+  width: 100%;
+}
+
+table tr:nth-child(odd) {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
 footer {
   margin: 3em auto 1em auto;
 }
