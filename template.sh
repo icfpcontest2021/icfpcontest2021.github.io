@@ -17,10 +17,12 @@ cat - <<EOF
     <nav>
       <a href="index.html">ICFPC2021</a>
       <a href="https://poses.live">Portal</a>
+      <a href="scoreboard.html">Scoreboard</a>
       <a href="rules.html">Rules</a>
       <a href="specification.html">Specification</a>
       <a href="faq.html">FAQ</a>
       <a href="prizes.html">Prizes</a>
+      <a href="writeups.html">Writeups</a>
       <a href="about.html">About</a>
     </nav>
     $(cat "$1")

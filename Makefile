@@ -4,10 +4,13 @@ build: \
 	_site/about.html \
 	_site/faq.html \
 	_site/feed.xml \
+	_site/images/animation-01.svg \
+	_site/images/logo.svg \
 	_site/index.html \
-	_site/logo.svg \
 	_site/prizes.html \
 	_site/rules.html \
+	_site/scoreboard.html \
+	_site/scoreboard-lightning.html \
 	_site/specification.html \
 	_site/spec-v1.0.pdf \
 	_site/spec-v1.1.pdf \
@@ -17,13 +20,17 @@ build: \
 	_site/spec-v3.0.pdf \
 	_site/spec-v4.0.pdf \
 	_site/spec-v4.1.pdf \
-	_site/style.css
+	_site/style.css \
+	_site/writeups.html
 
 _site:
 	mkdir _site
 
-_site/logo.svg: | _site
-	cp logo.svg $@
+_site/images: | _site
+	mkdir _site/images
+
+_site/images/%: images/% | _site/images
+	cp $< $@
 
 _site/%.pdf: %.pdf | _site
 	cp $< $@
