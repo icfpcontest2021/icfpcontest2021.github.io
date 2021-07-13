@@ -32,7 +32,7 @@ _site/images: | _site
 _site/images/%: images/% | _site/images
 	cp $< $@
 
-_site/%.pdf: %.pdf | _site
+_site/%.pdf: spec/%.pdf | _site
 	cp $< $@
 
 _site/style.css: style.css | _site
