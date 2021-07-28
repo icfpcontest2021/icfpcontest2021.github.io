@@ -3,11 +3,21 @@
   <title>ICFP Contest 2021</title>
   <link href="https://icfpcontest2021.github.io/"/>
   <link href="https://icfpcontest2021.github.io/feed.xml" rel="self"/>
-  <updated>2021-07-18T08:02:39+00:00</updated>
+  <updated>2021-07-28T18:07:11+00:00</updated>
   <author>
     <name>ICFP Contest 2021 Organisers</name>
   </author>
   <id>https://icfpcontest2021.github.io/</id>
+    <entry>
+      <title>Contest winners notified</title>
+      <link href="https://icfpcontest2021.github.io/"/>
+      <id>https://icfpcontest2021.github.io/#015-winners-notified</id>
+      <updated>2021-07-28T17:54:00+00:00</updated>
+      <summary type="html"><![CDATA[<p>
+  We've sent e-mails notifying the winners. The final scoreboard will be
+  reavealed and the winners will be announced at the ICFP conference on August 23-25, 2021.
+</p>]]></summary>
+    </entry>
     <entry>
       <title>Partial scoreboard, poses.live future and Team Writeups</title>
       <link href="https://icfpcontest2021.github.io/"/>
