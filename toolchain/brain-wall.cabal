@@ -1,0 +1,239 @@
+Cabal-version:       2.2
+Name:                brain-wall
+Version:             0.1.0.0
+Author:              Jasper Van der Jeugt
+Maintainer:          m@jaspervdj.be
+Build-type:          Simple
+
+Extra-source-files:
+  assets/judges.svg
+  assets/style.css
+
+Library
+  Default-language: Haskell2010
+  Ghc-options:      -Wall
+  Hs-source-dirs:   lib
+
+  Build-depends:
+    aeson                    >= 1.4  && < 1.6,
+    aeson-pretty             >= 0.8  && < 0.9,
+    async                    >= 2.2  && < 2.3,
+    attoparsec               >= 0.13 && < 0.14,
+    base                     >= 4.13 && < 4.15,
+    base16-bytestring        >= 0.1  && < 1.1,
+    base64-bytestring        >= 1.0  && < 1.3,
+    blaze-html               >= 0.9  && < 0.10,
+    bytestring               >= 0.10 && < 0.11,
+    containers               >= 0.6  && < 0.7,
+    cryptohash-sha256        >= 0.11 && < 0.12,
+    deepseq                  >= 1.4  && < 1.5,
+    digestive-functors       >= 0.8  && < 0.9,
+    digestive-functors-blaze >= 0.6  && < 0.7,
+    directory                >= 1.3  && < 1.4,
+    fast-logger              >= 3.0  && < 3.1,
+    file-embed               >= 0.0  && < 0.1,
+    filepath                 >= 1.4  && < 1.5,
+    hashable                 >= 1.3  && < 1.4,
+    hmatrix-gsl              >= 0.19 && < 0.20,
+    hmatrix                  >= 0.19 && < 0.21,
+    http-api-data            >= 0.4  && < 0.5,
+    http-types               >= 0.12 && < 0.13,
+    JuicyPixels              >= 3.3  && < 3.4,
+    lens                     >= 4.19 && < 4.20,
+    linear                   >= 1.21 && < 1.22,
+    mtl                      >= 2.2  && < 2.3,
+    mwc-random               >= 0.15 && < 0.16,
+    optparse-applicative     >= 0.15 && < 0.17,
+    postgresql-simple        >= 0.6  && < 0.7,
+    process                  >= 1.6  && < 1.7,
+    QuickCheck               >= 2.14 && < 2.15,
+    random                   >= 1.2  && < 1.3,
+    Spock                    >= 0.14 && < 0.15,
+    Spock-digestive          >= 0.3  && < 0.5,
+    text                     >= 1.2  && < 1.3,
+    template-haskell         >= 2.16 && < 2.17,
+    time                     >= 1.9  && < 1.10,
+    vector                   >= 0.12 && < 0.13,
+    xml                      >= 1.3  && < 1.4,
+    unordered-containers     >= 0.2  && < 0.3,
+    users                    >= 0.5  && < 0.6,
+    users-postgresql-simple  >= 0.5  && < 0.6,
+    uuid                     >= 1.3  && < 1.4,
+    uuid-types               >= 1.0  && < 1.1,
+    wai-logger               >= 2.3  && < 2.4,
+    warp                     >= 3.3  && < 3.4
+
+  Exposed-modules:
+    BrainWall
+    BrainWall.Box
+    BrainWall.Circle
+    BrainWall.Database
+    BrainWall.Edge
+    BrainWall.Edge.Slope
+    BrainWall.Graph
+    BrainWall.Graphics.Delaunay
+    BrainWall.Graphics.Projective
+    BrainWall.JasperSolver
+    BrainWall.JasperSolver.HillClimb
+    BrainWall.JasperSolver.Limbs
+    BrainWall.JasperSolver.SimulatedAnnealing
+    BrainWall.Json
+    BrainWall.Main.Animate
+    BrainWall.Main.DownloadSources
+    BrainWall.Main.EstimateEpsilon
+    BrainWall.Main.Gallery
+    BrainWall.Main.GenerateBonus
+    BrainWall.Main.GenerateFigure
+    BrainWall.Main.GenerateHole
+    BrainWall.Main.InsertProblems
+    BrainWall.Main.JasperGen
+    BrainWall.Main.Judge
+    BrainWall.Main.ParseSvg
+    BrainWall.Main.Prosecutor
+    BrainWall.Main.RandomMany
+    BrainWall.Main.RandomProblem
+    BrainWall.Main.RenderSvg
+    BrainWall.Main.ResetPassword
+    BrainWall.Main.Scoreboard
+    BrainWall.Main.Texture
+    BrainWall.Planar
+    BrainWall.Polygon
+    BrainWall.Polygon.ContainsEdge
+    BrainWall.Polygon.ContainsPoint
+    BrainWall.Polygon.ConvexHull
+    BrainWall.Polygon.Internal
+    BrainWall.Polygon.Simple
+    BrainWall.Polygon.Triangulate
+    BrainWall.Problem
+    BrainWall.Random
+    BrainWall.Svg
+    BrainWall.Triangle
+    BrainWall.V2
+    BrainWall.Version
+    BrainWall.Web
+    BrainWall.Web.Assets
+    Data.List.Extended
+    Data.UUID
+    Options.Applicative.Extended
+    System.Random.Extended
+    Text.XML.Light.Extended
+
+Common executable
+  Build-depends:    base >= 4.13 && < 4.15, brain-wall
+  Default-language: Haskell2010
+  Ghc-options:      -Wall -rtsopts -threaded "-with-rtsopts=-N"
+  Hs-source-dirs:   src
+
+Executable brain-wall-animate
+  Import:  executable
+  Main-is: Animate.hs
+
+Executable brain-wall-download-sources
+  Import:  executable
+  Main-is: DownloadSources.hs
+
+Executable brain-wall-estimate-epsilon
+  Import:  executable
+  Main-is: EstimateEpsilon.hs
+
+Executable brain-wall-gallery
+  Import:  executable
+  Main-is: Gallery.hs
+
+Executable brain-wall-generate-bonus
+  Import:  executable
+  Main-is: GenerateBonus.hs
+
+Executable brain-wall-generate-figure
+  Import:  executable
+  Main-is: GenerateFigure.hs
+
+Executable brain-wall-generate-hole
+  Import:  executable
+  Main-is: GenerateHole.hs
+
+Executable brain-wall-insert-problems
+  Import:  executable
+  Main-is: InsertProblems.hs
+
+Executable brain-wall-jasper-gen
+  Import:  executable
+  Main-is: JasperGen.hs
+
+Executable brain-wall-jasper-solver
+  Import:  executable
+  Main-is: JasperSolver.hs
+
+Executable brain-wall-judge
+  Import:  executable
+  Main-is: Judge.hs
+
+Executable brain-wall-parse-svg
+  Import:  executable
+  Main-is: ParseSvg.hs
+
+Executable brain-wall-prosecutor
+  Import:  executable
+  Main-is: Prosecutor.hs
+
+Executable brain-wall-render-svg
+  Import:  executable
+  Main-is: RenderSvg.hs
+
+Executable brain-wall-reset-password
+  Import:  executable
+  Main-is: ResetPassword.hs
+
+Executable brain-wall-random-problem
+  Import:  executable
+  Main-is: RandomProblem.hs
+
+Executable brain-wall-random-many
+  Import:  executable
+  Main-is: RandomMany.hs
+
+Executable brain-wall-scoreboard
+  Import:  executable
+  Main-is: Scoreboard.hs
+
+Executable brain-wall-texture
+  Import:  executable
+  Main-is: Texture.hs
+
+Executable brain-wall-web
+  Import:  executable
+  Main-is: Web.hs
+
+Test-suite brain-wall-tests
+  Default-language: Haskell2010
+  Ghc-options:      -Wall
+  Hs-source-dirs:   tests
+  Main-is:          Main.hs
+  Type:             exitcode-stdio-1.0
+
+  Other-modules:
+    BrainWall.Database.Tests
+    BrainWall.Edge.Slope.Tests
+    BrainWall.Edge.Tests
+    BrainWall.Main.Prosecutor.Tests
+    BrainWall.Polygon.ContainsEdge.Tests
+    BrainWall.Polygon.ContainsPoint.Tests
+    BrainWall.Polygon.Tests
+    BrainWall.Problem.Tests
+
+  Build-depends:
+    aeson             >= 1.5  && < 1.6,
+    base              >= 4.13 && < 4.15,
+    brain-wall,
+    directory         >= 1.3  && < 1.4,
+    fast-logger       >= 3.0  && < 3.1,
+    filepath          >= 1.4  && < 1.5,
+    postgresql-simple >= 0.6  && < 0.7,
+    tasty             >= 1.2  && < 1.5,
+    tasty-hunit       >= 0.10 && < 0.11,
+    tasty-quickcheck  >= 0.10 && < 0.11,
+    time              >= 1.9  && < 1.10,
+    text              >= 1.2  && < 1.3,
+    tmp-postgres      >= 1.34 && < 1.35,
+    users             >= 0.5  && < 0.6,
+    vector            >= 0.12 && < 0.13

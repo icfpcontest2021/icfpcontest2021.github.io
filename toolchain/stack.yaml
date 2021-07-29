@@ -1,0 +1,26 @@
+resolver: 'lts-17.9'
+packages:
+- '.'
+nix:
+  packages:
+  - 'blas'
+  - 'gsl'
+  - 'lapack'
+  - 'pkgconfig'
+  - 'postgresql'
+  - 'zlib'
+flags:
+  QuickCheck:
+    old-random: false
+extra-deps:
+- 'digestive-functors-0.8.4.2'
+- 'digestive-functors-blaze-0.6.2.0'
+- 'Spock-0.14.0.0'
+- 'Spock-core-0.14.0.0'
+- 'Spock-digestive-0.3.0.0'
+- 'reroute-0.6.0.0'
+- 'users-0.5.0.0'
+- 'users-postgresql-simple-0.5.0.2'
+- 'random-1.2.0'
+- 'mwc-random-0.15.0.1'
+- 'hmatrix-0.19.0.0'
