@@ -1,3 +1,4 @@
-_site
-index.html
-.stack-work/
+/website/_site
+/website/index.html
+/toolchain/.stack-work/
+/spec/spec.pdf

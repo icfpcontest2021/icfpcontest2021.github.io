@@ -1,6 +1,6 @@
 # IFCP Contest 2021
 
-## website
+## Website
 
 You can find our website in `website/`.
 
@@ -22,7 +22,7 @@ Or you can use a simple HTTP server, e.g:
 
     python -m http.server --directory _site
 
-## toolchain
+## Toolchain
 
 The toolchain contains the bulk of our code.  It is a Haskell project containing
 the database, judge, webserver, and numerours utilities.

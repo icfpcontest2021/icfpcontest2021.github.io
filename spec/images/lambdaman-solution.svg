@@ -1,0 +1,36 @@
+<?xml version='1.0' ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100">
+  <path d="M 45,80 L 35,95 L 5,95 L 35,50 L 5,5 L 35,5 L 95,95 L 65,95 L 55,80 Z" id="hole" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;" />
+  <g id="figure" style="fill:none;stroke:#ff0000;stroke-linecap:round">
+    <path d="M 31,87 L 58,70" />
+    <path d="M 58,70 L 44,43" />
+    <path d="M 44,43 L 31,28" />
+    <path d="M 31,28 L 21,28" />
+    <path d="M 21,28 L 36,50" />
+    <path d="M 36,50 L 29,41" />
+    <path d="M 29,41 L 32,31" />
+    <path d="M 32,31 L 42,29" />
+    <path d="M 42,29 L 49,38" />
+    <path d="M 49,38 L 46,49" />
+    <path d="M 46,49 L 42,25" />
+    <path d="M 42,25 L 40,35" />
+    <path d="M 40,35 L 39,57" />
+    <path d="M 39,57 L 69,66" />
+    <path d="M 69,66 L 39,60" />
+    <path d="M 39,60 L 41,70" />
+    <path d="M 41,70 L 66,77" />
+    <path d="M 66,77 L 38,79" />
+    <path d="M 38,79 L 31,87" />
+    <path d="M 36,50 L 46,49" />
+    <path d="M 32,31 L 39,40" />
+    <path d="M 39,40 L 29,41" />
+    <path d="M 36,50 L 39,40" />
+    <path d="M 39,40 L 46,49" />
+    <path d="M 49,38 L 39,40" />
+    <path d="M 39,40 L 42,29" />
+    <path d="M 44,43 L 36,50" />
+    <path d="M 46,49 L 39,57" />
+    <path d="M 58,70 L 66,77" />
+    <path d="M 66,77 L 69,66" />
+  </g>
+</svg>
