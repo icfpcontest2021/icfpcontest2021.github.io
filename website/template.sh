@@ -30,7 +30,8 @@ cat - <<EOF
     <footer>
       Copyright © ICFPC2021 Organisers |
       <a href="https://berlincodeofconduct.org/">Code of Conduct</a> |
-      <a href="https://twitter.com/icfpcontest2021">@icfpcontest2021</a>
+      <a href="https://twitter.com/icfpcontest2021">@icfpcontest2021</a> |
+      $(git rev-parse --short HEAD)
     </footer>
   </body>
 </html>

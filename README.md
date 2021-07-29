@@ -1,8 +1,10 @@
-# README
+# IFCP Contest 2021
 
-This is our public webpage.
+## webste
 
-# Development
+You can find our website in `website/`.
+
+### Development
 
 This site only uses a couple standard utilities, like `bash`, `sed`, `date`,
 `make`.  It should work out of the box on most linux systems.
