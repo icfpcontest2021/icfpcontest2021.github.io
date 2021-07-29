@@ -11,25 +11,25 @@ This site only uses a couple standard utilities, like `bash`, `sed`, `date`,
 
 To build the website, simply use:
 
-    make
+    make website
 
 This produces a `_site` directory with static files.  You can preview those
 directly using a browser, e.g.:
 
-    firefox _site/index.html
+    firefox website/_site/index.html
 
 Or you can use a simple HTTP server, e.g:
 
-    python -m http.server --directory _site
+    python -m http.server --directory website/_site
 
 ## Toolchain
 
 The toolchain contains the bulk of our code.  It is a Haskell project containing
 the database, judge, webserver, and numerours utilities.
 
-## Building
+### Building and installing
 
-    cabal install
+    make toolchain
 
 ### Configuring
 

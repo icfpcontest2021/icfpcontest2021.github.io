@@ -1,0 +1,28 @@
+version: "3.0"
+services:
+  db:
+    image: postgres
+    volumes:
+    - ./data/db:/var/lib/postgresql/data
+    environment:
+    - POSTGRES_DB=icfpc
+    - POSTGRES_USER=icfpc
+    - POSTGRES_PASSWORD=icfpc
+    # ports:
+    # - '127.0.0.1:9999:5432'
+  web:
+    image: 'brain-wall-web:p3qh1ry7ngd1s3liz3dv186472s9v9mi'
+    ports:
+    - '127.0.0.1:8003:3000'
+    environment:
+    - 'BRAINWALL_PG_CONNECTION_STRING=host=db dbname=icfpc user=icfpc password=icfpc'
+    depends_on:
+    - db
+    restart: on-failure
+  prosecutor:
+    image: 'brain-wall-prosecutor:h3gxarhab1mbkwrwflyw03b775qrgxar'
+    environment:
+    - 'BRAINWALL_PG_CONNECTION_STRING=host=db dbname=icfpc user=icfpc password=icfpc'
+    depends_on:
+    - db
+    restart: on-failure

@@ -1,4 +1,5 @@
-/website/_site
-/website/index.html
-/toolchain/.stack-work/
+/infra/images/
 /spec/spec.pdf
+/toolchain/.stack-work/
+/website/index.html
+/website/_site/
