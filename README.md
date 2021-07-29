@@ -1,8 +1,20 @@
 # IFCP Contest 2021
 
-## Website
+The repository contains almost all of the source code used to run ICFP Contest
+2021.  There are a number of components:
 
-You can find our website in `website/`.
+ -  [`website/`](#website): This is the source for the website at
+    <https://icfpcontest2021.github.io>.
+ -  [`spec/`](#spec): The source code of the specification, as Pandoc markdown.
+ -  `problems/`: The problems released during the contest.
+ -  [`toolchain/`](#toolchain): The toolchain contains the bulk of our code.
+    It is a Haskell project containing the database, judge, webserver, and
+    numerous other utilities.
+ -  [`infra/`](#infra): Some deployment stuff, most importantly contains a nix
+    file to build docker images that we can deploy in a pretty
+    straightforward way.
+
+## Website
 
 ### Development
 
@@ -22,14 +34,29 @@ Or you can use a simple HTTP server, e.g:
 
     python -m http.server --directory website/_site
 
-## Toolchain
+## Spec
 
-The toolchain contains the bulk of our code.  It is a Haskell project containing
-the database, judge, webserver, and numerours utilities.
+### Building
+
+    make spec
+
+## Toolchain
 
 ### Building and installing
 
     make toolchain
+    
+### Database
+
+For some tools, you need to have a Postgres instance running somewhere.
+First, create a database, then run the migrations that set up the schema.
+For example:
+
+```bash
+sudo createuser jasper                            # set up local user
+createdb icfpc                                    # create database
+for i in toolchain/db/*; do psql icfpc <$i; done  # apply migrations
+```
 
 ### Configuring
 
@@ -40,6 +67,18 @@ the database, judge, webserver, and numerours utilities.
 ### Tools
 
 After installing, you should have a number of executables in your `$PATH`.
+
+Noteworthy:
+
+ -  `brain-wall-web`: Worker to run the web portal.
+ -  `brain-wall-prosecutor`: Worker to judge solutions in the database.
+ -  `brain-wall-judge`: CLI utility to judge a pose.
+ -  `brain-wall-render-svg`: Render an SVG for a problem (and possibly a pose).
+ -  `brain-wall-parse-svg`: Takes an SVG that has a elements with IDs `hole` and
+    `figure` and tries to turn this into a problem.
+ -  `brain-wall-random-problem`: Generate a random problem.
+
+Miscellaneous:
 
  -  `brain-wall-animate`: Renders an animation given a problem and pose.
  -  `brain-wall-download-sources`: Download the source code submitted by
@@ -55,16 +94,15 @@ After installing, you should have a number of executables in your `$PATH`.
     show up in the web portal.
  -  `brain-wall-jasper-gen`: Fairly dumb problem generator.
  -  `brain-wall-jasper-solver`: Fairly dumb solver.
- -  `brain-wall-judge`: CLI utility to judge a pose.
- -  `brain-wall-parse-svg`: Takes an SVG that has a elements with IDs `hole` and
-    `figure` and tries to turn this into a problem.
-    `brain-wall-prosecutor`: Worker to judge solutions in the database.
  -  `brain-wall-random-many`: Generate multiple random problems.
- -  `brain-wall-random-problem`: Generate a random problem.
- -  `brain-wall-render-svg`: Render an SVG for a problem (and possibly a pose).
  -  `brain-wall-reset-password`: Reset the password for a participant.
  -  `brain-wall-scoreboard`: Renders the scoreboard in plain text.
  -  `brain-wall-texture`: Texturing experiment for planar figures.
- -  `brain-wall-web`: Worker to run the web portal.
 
 Most of these have an `-h` flag to show supported options.
+
+## Infra
+
+### Building
+
+    make images
