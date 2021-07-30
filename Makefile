@@ -13,7 +13,7 @@ images:
 
 .PHONY: toolchain
 toolchain:
-	cd toolchain && stack build --copy-bins
+	cd toolchain && stack build --test --copy-bins
 
 .PHONY: clean
 clean:
