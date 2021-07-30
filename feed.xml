@@ -3,11 +3,25 @@
   <title>ICFP Contest 2021</title>
   <link href="https://icfpcontest2021.github.io/"/>
   <link href="https://icfpcontest2021.github.io/feed.xml" rel="self"/>
-  <updated>2021-07-29T15:47:04+00:00</updated>
+  <updated>2021-07-30T17:47:06+00:00</updated>
   <author>
     <name>ICFP Contest 2021 Organisers</name>
   </author>
   <id>https://icfpcontest2021.github.io/</id>
+    <entry>
+      <title>Contest Code Open Sourced</title>
+      <link href="https://icfpcontest2021.github.io/"/>
+      <id>https://icfpcontest2021.github.io/#016-code-open-sourced</id>
+      <updated>2021-07-30T17:45:00+00:00</updated>
+      <summary type="html"><![CDATA[<p>
+  We're excited to announce that we have open sourced the code that we used to
+  put together the contest under the BSD3 license.
+</p>
+<p>
+  You can find the code alongside the source for this website at<br>
+  <a href="https://github.com/icfpcontest2021/icfpcontest2021.github.io">https://github.com/icfpcontest2021/icfpcontest2021.github.io</a>.
+</p>]]></summary>
+    </entry>
     <entry>
       <title>Contest winners notified</title>
       <link href="https://icfpcontest2021.github.io/"/>
