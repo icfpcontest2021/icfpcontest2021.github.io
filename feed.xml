@@ -3,7 +3,7 @@
   <title>ICFP Contest 2021</title>
   <link href="https://icfpcontest2021.github.io/"/>
   <link href="https://icfpcontest2021.github.io/feed.xml" rel="self"/>
-  <updated>2021-08-25T13:35:14+00:00</updated>
+  <updated>2021-08-25T13:48:01+00:00</updated>
   <author>
     <name>ICFP Contest 2021 Organisers</name>
   </author>
@@ -25,7 +25,7 @@
   <dt>Third prize: Special Weekend</dt>
   <dd><i>Rust, TypeScript and Go</i> are also not too shabby.</dd>
   <dt>Winner of the lightning division: Special Weekend</dt>
-  <dd><i>Rust, TypeScript and Go</i> is very suitable for rapid prototyping.</dd>
+  <dd><i>Rust, TypeScript and Go</i> are very suitable for rapid prototyping.</dd>
   <dt>Judges' prize: manarimo</dt>
   <dd><i>manarimo</i> are an extremely cool bunch of hackers.</dd>
 </dl>
