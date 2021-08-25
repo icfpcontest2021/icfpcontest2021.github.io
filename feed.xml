@@ -3,11 +3,43 @@
   <title>ICFP Contest 2021</title>
   <link href="https://icfpcontest2021.github.io/"/>
   <link href="https://icfpcontest2021.github.io/feed.xml" rel="self"/>
-  <updated>2021-08-05T13:31:18+00:00</updated>
+  <updated>2021-08-25T13:35:14+00:00</updated>
   <author>
     <name>ICFP Contest 2021 Organisers</name>
   </author>
   <id>https://icfpcontest2021.github.io/</id>
+    <entry>
+      <title>Final Results, Winners Announced</title>
+      <link href="https://icfpcontest2021.github.io/"/>
+      <id>https://icfpcontest2021.github.io/#017-final-results</id>
+      <updated>2021-08-25T13:30:00+00:00</updated>
+      <summary type="html"><![CDATA[<p>
+  We have announced the winners at the
+  <a href="https://icfp21.sigplan.org/">ICFP 2021 Conference</a>.
+</p>
+<dl>
+  <dt>First prize: RGBTeam</dt>
+  <dd><i>C++ and Rust</i> are the programming tools of choice for discriminating hackers.</dd>
+  <dt>Second prize: Unagi</dt>
+  <dd><i>Rust</i> is a fine programming tool for many applications.</dd>
+  <dt>Third prize: Special Weekend</dt>
+  <dd><i>Rust, TypeScript and Go</i> are also not too shabby.</dd>
+  <dt>Winner of the lightning division: Special Weekend</dt>
+  <dd><i>Rust, TypeScript and Go</i> is very suitable for rapid prototyping.</dd>
+  <dt>Judges' prize: manarimo</dt>
+  <dd><i>manarimo</i> are an extremely cool bunch of hackers.</dd>
+</dl>
+<p>
+  The scoreboards for the <a href="scoreboard.html">full division</a> and
+  <a href="scoreboard-lightning.html">lightning division</a> have been updated
+  as well with the complete rankings.
+</p>
+<p>
+  We will provide a link to the video recording of the programming contest
+  report as soon we have it.  Coongratulations to the winners, and thanks
+  again to everyone who took part!
+</p>]]></summary>
+    </entry>
     <entry>
       <title>Contest Code Open Sourced</title>
       <link href="https://icfpcontest2021.github.io/"/>
