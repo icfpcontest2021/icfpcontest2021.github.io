@@ -1,0 +1,1250 @@
+﻿WEBVTT
+
+00:00:02.720 --> 00:00:07.920
+Hi everyone, and welcome to the Contest 
+Report for the ICFP Programming Contest 2021  
+
+00:00:08.480 --> 00:00:12.480
+My name is Jasper and this year I 
+organized the contest together with Alex
+
+00:00:15.760 --> 00:00:22.160
+So the ICFP Programming Contest has been 
+hosted every year since 1998.
+
+00:00:22.160 --> 00:00:27.760
+The contest  happens over 72 hours and usually there's 
+a 24-hour lightning division.
+
+00:00:27.760 --> 00:00:31.600
+The languages used by the top participants become 
+officially recognized by the contest  
+
+00:00:32.480 --> 00:00:39.440
+and so our winners get very important bragging 
+rights.  We sort of think of this as the  
+
+00:00:39.440 --> 00:00:45.840
+most fun serious programming contest around 
+because of its variety and low barrier to entry  
+
+00:00:46.800 --> 00:00:51.360
+I'm saying low barrier to entry because there's no financial entry fee.
+
+00:00:51.360 --> 00:00:57.200
+Logistics are easy it's always organized 
+online there's no need to form a team there's no  
+
+00:00:57.200 --> 00:01:02.960
+pre-selections or no need to be a student. 
+Of course participating is more important than winning,
+
+00:01:03.600 --> 00:01:09.600
+but on the other hand it's still 
+a serious contest with complex problems each year
+
+00:01:09.600 --> 00:01:13.360
+and some of the participants are 
+among the best competitive programmers.
+
+00:01:17.440 --> 00:01:23.440
+So one of the cool aspects of the ICFP 
+Programming Contest is that the organizer changed  
+
+00:01:23.440 --> 00:01:28.960
+year after year and this leads a lot of 
+variety in the subject matters addressed in the contest.
+
+00:01:28.960 --> 00:01:35.120
+Typically the contests 
+often end up being a player versus player  
+
+00:01:35.120 --> 00:01:42.880
+AI tournament or where participants have to write 
+bots or some sort of complex optimization problems  
+
+00:01:43.520 --> 00:01:47.280
+often there's also a lot of 
+reverse engineering involved  
+
+00:01:49.120 --> 00:01:54.240
+on the slide here you can see a rundown 
+of the contest for the previous few years
+
+00:01:57.200 --> 00:02:04.320
+And to go to even more recent history in 
+September 2020 Sukyoung Ryu asked me if we wanted  
+
+00:02:04.320 --> 00:02:09.040
+to organize this year's contest. I immediately 
+asked Alex because obviously it's not something  
+
+00:02:09.040 --> 00:02:14.320
+you can do alone and I've always participated 
+in the ICFP Programming Contest with him.
+
+00:02:14.320 --> 00:02:21.120
+We didn't really know what this involved and we got in touch 
+with Ilya Sergey who organized the contest in 2019.
+
+00:02:21.120 --> 00:02:25.520
+He's been very responsive throughout the year 
+whenever we had questions about practical things.
+
+00:02:26.480 --> 00:02:32.080
+There was never really a lack of ideas but 
+many of the ideas we had were underdeveloped,
+
+00:02:32.080 --> 00:02:35.360
+because we were afraid of putting in too 
+much effort into something that turned out  
+
+00:02:35.360 --> 00:02:39.150
+to be maybe too easy or not entertaining 
+in the end.
+
+00:02:39.696 --> 00:02:44.320
+By december 2020 we were
+
+00:02:44.320 --> 00:02:49.920
+quite excited about doing something with 
+non-euclidean geometry
+
+00:02:49.920 --> 00:02:55.840
+since it hadn't been done in the ICFP Contest 
+before and visually it's quite interesting.  
+
+00:02:56.960 --> 00:03:04.240
+However, we decided that it was not 
+a good fit for a programming contest since  
+
+00:03:04.240 --> 00:03:13.000
+the complicated geometry makes it very hard 
+for an easy first simple solution to be made.
+
+00:03:13.194 --> 00:03:18.240
+But since we thought it was 
+an interesting idea we ended up making  
+
+00:03:18.240 --> 00:03:26.480
+a cute web game uh that we published earlier 
+this year.  But going getting back to the contest  
+
+00:03:27.760 --> 00:03:33.440
+on March 1st we realized that the the contest 
+date was fast approaching and so we wrote down  
+
+00:03:34.320 --> 00:03:38.960
+some of our selection criteria to 
+help us decide which problem to choose.
+
+00:03:41.040 --> 00:03:49.040
+So we ended up with the following criteria: 
+we wanted the problem to be hard so it has enough  
+
+00:03:49.040 --> 00:03:55.760
+depth for very serious competitors.
+Implementing it should be fun for all participants even if  
+
+00:03:55.760 --> 00:04:01.440
+you're not doing very well: participating is more 
+important than winning.  
+
+00:04:01.440 --> 00:04:06.480
+In this sort of sense it should be easy to get started 
+by submitting a very bad solution so you can  
+
+00:04:06.480 --> 00:04:10.160
+just get started easily, even if your 
+solutions aren't very good initially. 
+
+00:04:12.080 --> 00:04:16.960
+Of course there should be a nice visualization 
+aspect, and we would also really prefer it if  
+
+00:04:16.960 --> 00:04:20.672
+you could explain the problem really fast, 
+in two minutes or less.
+
+00:04:20.888 --> 00:04:28.400
+After we considered all of these criteria for the ideas that we had 
+written down we started iterating and expanding
+
+00:04:28.400 --> 00:04:34.000
+on the Brain-Wall idea. We also eliminated a 
+lot of ideas even though because they were very  
+
+00:04:34.000 --> 00:04:40.080
+interesting we didn't really know if maybe there 
+was this very fast and easy algorithm,
+
+00:04:40.080 --> 00:04:44.480
+and just studying that would take a 
+significant time investment on its own.
+
+00:04:45.040 --> 00:04:51.680
+We also had some thematic criteria: we wanted to 
+avoid sort of games around fighting or war.
+
+00:04:51.680 --> 00:04:55.840
+Preferably it had to be something 
+hilarious, something comic.
+
+00:05:00.720 --> 00:05:07.040
+The problem we chose was inspired by 
+Brain-Wall it's a segment from a Japanese TV show.  
+
+00:05:07.920 --> 00:05:13.040
+The idea is that the styrofoam wall moves 
+towards the participant and they must strike  
+
+00:05:13.040 --> 00:05:18.320
+a pose that allows them to pass through the 
+wall or else they get pushed into water.
+
+00:05:20.400 --> 00:05:26.451
+This is a problem that we would give 
+participants, based on the TV show picture we just saw.
+
+00:05:26.578 --> 00:05:31.280
+One thing we immediately noticed is 
+that just making the figure fit through the
+
+00:05:31.280 --> 00:05:36.320
+hole is not enough. Most of the formulations that 
+we came up with would allow people just to  
+
+00:05:36.320 --> 00:05:41.360
+sort of crumple into a small ball and fit through 
+that way.  So we added the additional  
+
+00:05:41.360 --> 00:05:46.720
+notion that risk should be awarded and if you 
+strike a pose and you cover more of the grid
+
+00:05:46.720 --> 00:05:51.840
+and you stretch out more to reach all the 
+edges you should be rewarded for that.
+
+00:05:55.440 --> 00:05:57.680
+On the slide you can basically see our  
+
+00:05:58.240 --> 00:06:04.880
+problem definition. The constraints were that 
+edges can't be stretched or compressed too much
+
+00:06:05.600 --> 00:06:10.646
+and the figure has to be completely within 
+the hole, including the boundary.
+
+00:06:10.895 --> 00:06:16.320
+It was important for us to work with integers 
+so we don't suffer from accumulating  
+
+00:06:17.360 --> 00:06:24.960
+floating point inaccuracies when judging solutions. 
+Having our problem be defined on integers also  
+
+00:06:24.960 --> 00:06:30.960
+pushes us into the realm of discrete optimization 
+or integer programming, which is generally  
+
+00:06:30.960 --> 00:06:37.360
+harder than their continuous counterparts.
+As you can see the problem  
+
+00:06:37.360 --> 00:06:43.760
+definition is very concise. It basically just 
+fits on a single slide. We did consider
+
+00:06:43.760 --> 00:06:55.760
+a number of other formulae, such as using filled 
+area for scoring, or having slightly different,
+
+00:06:57.840 --> 00:07:02.880
+slightly more complex stretch formulas. 
+But we decided that the formulae shown here  
+
+00:07:02.880 --> 00:07:07.840
+gave us a good trade-off between having the 
+problem be interesting and visually intuitive.
+
+00:07:11.280 --> 00:07:16.240
+And even though the specification sounds 
+simple, there are a lot of sub problems that  
+
+00:07:16.240 --> 00:07:21.360
+are much harder than they seem. One of these
+is for example determining if a line segment  
+
+00:07:21.360 --> 00:07:27.920
+lays within a polygon, which I'm sure many of 
+our participants will remember very well.  
+
+00:07:27.920 --> 00:07:33.440
+If you don't count the boundary of the polygon 
+as inside this is actually a rather easy problem.
+
+00:07:33.440 --> 00:07:37.920
+You just need to test if one point is inside 
+and that the line segment doesn't
+
+00:07:37.920 --> 00:07:42.800
+intersect with the polygon. However since the 
+boundary counts as inside it's a lot harder  
+
+00:07:42.800 --> 00:07:47.680
+and this also matters in practice since 
+our goal function awards putting points of  
+
+00:07:47.680 --> 00:07:53.520
+the figure close to the boundary to take more 
+risk. Solving this has a lot of edge cases  
+
+00:07:53.520 --> 00:07:58.480
+so maybe it's a bit much to go through now but 
+basically you don't only need to check if  
+
+00:07:58.480 --> 00:08:03.600
+lines intersect but also how and where and what 
+sort of angle and then representing angles is  
+
+00:08:03.600 --> 00:08:08.320
+additionally a little tricky since we're using 
+integer math and not just floating point numbers.
+
+00:08:11.840 --> 00:08:17.840
+This is a possible solution to the problem 
+we showed earlier. As you can see there's no  
+
+00:08:17.840 --> 00:08:24.080
+requirement for the figure to remain planar 
+and this helps us keep the specification simple.
+
+00:08:25.840 --> 00:08:31.280
+We're also super proud of this animation but 
+maybe less proud of how much time we spent on that.
+
+00:08:33.840 --> 00:08:40.560
+We had this dashboard where you could submit 
+problems and view your submissions. You can  
+
+00:08:40.560 --> 00:08:44.480
+look at your best scores. This dashboard 
+is still up and running though it's on a  
+
+00:08:44.480 --> 00:08:50.480
+smaller instance now, but you can go and give it 
+a look. We also added an HTTP API so people could  
+
+00:08:50.480 --> 00:08:56.880
+sort of submit solutions in a more 
+programmatic fashion more easily.  
+
+00:08:56.880 --> 00:09:04.800
+Then we had a scoring formula that 
+assigns a score per team per problem. It's based  
+
+00:09:04.800 --> 00:09:10.880
+on the difficulty of the problem and also what 
+the best currently known solution is among all teams.
+
+00:09:10.880 --> 00:09:17.040
+This formula places a lot of importance 
+on problems where there is a perfect solution.
+
+00:09:17.040 --> 00:09:25.840
+If other teams find this perfect solution you 
+also need to do the same to to stay in the game.
+
+00:09:26.960 --> 00:09:32.960
+At the beginning of the contest we 
+released just a limited set of 59 problems.
+
+00:09:33.680 --> 00:09:37.120
+Then we gradually added more 
+problems throughout the contest.
+
+00:09:37.840 --> 00:09:44.800
+This allowed us to gauge how participants were 
+doing. We would release more or harder problems  
+
+00:09:45.520 --> 00:09:49.200
+when we thought the participants 
+were doing well, or if we thought that  
+
+00:09:49.200 --> 00:09:53.840
+there was not enough differentiation 
+between the top participants.
+
+00:09:55.760 --> 00:10:02.000
+Many of our problems were hand-drawn. We created 
+the tool that allowed us to just parse SVG files
+
+00:10:02.000 --> 00:10:07.840
+and write this out as problem files. That way we 
+could just draw things in inkscape which was neat.
+
+00:10:09.520 --> 00:10:14.240
+One of the things we always appreciated about 
+the ICFP Contest is how they would often make  
+
+00:10:14.240 --> 00:10:19.280
+references to older contests. We tried to 
+incorporate this as well. We went through the
+
+00:10:19.280 --> 00:10:23.920
+old contests and dug up some images that we found. 
+We couldn't do this for all contests since there's  
+
+00:10:23.920 --> 00:10:28.640
+many of them and a lot of them are just text-based 
+but it was still a lot of fun. This is the logo  
+
+00:10:28.640 --> 00:10:34.160
+from the Cult of the Bound Variable based on 
+an image that appeared in the original codex  
+
+00:10:34.160 --> 00:10:42.640
+and that we traced in inkscape. We also have Endo 
+the alien from ICFP 2007 in Utrecht.
+
+00:10:42.640 --> 00:10:50.000
+Endo is trying to get home in his spaceship.
+We have the crane origami reference to the ICFP  
+
+00:10:50.000 --> 00:10:56.560
+Programming Contest in 2016. It was interesting 
+to us how just sorting through the  
+
+00:10:57.440 --> 00:11:01.920
+images and drawing them leads to lots of 
+interesting problems. I like this picture  
+
+00:11:01.920 --> 00:11:06.880
+especially because it's inherently visually 
+very similar to one of the problems from  
+
+00:11:06.880 --> 00:11:13.600
+2016 but yet the way you would go about solving 
+it in its new context is is very different.
+
+00:11:15.360 --> 00:11:21.440
+This is the worker-wrapper robot, working in 
+the Lambda mines to prevent bit-rot from 2019.
+
+00:11:22.000 --> 00:11:26.400
+One of the interesting aspects of this figure 
+is that it has three long limbs you can use  
+
+00:11:26.400 --> 00:11:33.360
+to reach the far away corners of the hole. 
+Of course we didn't only have a hand-drawn problems.
+
+00:11:35.680 --> 00:11:40.960
+In addition to our hand-drawn problems 
+we developed several algorithms to generate random problems.
+
+00:11:40.960 --> 00:11:49.040
+Our generator was quite customizable and took
+many configuration parameters as you can on the slides.
+
+00:11:49.040 --> 00:11:56.480
+This resulted in many different 
+styles of problems. Out of the generated problems
+
+00:11:56.480 --> 00:12:03.440
+it also generated many problems that were 
+either too easy or too boring. We had to  
+
+00:12:03.440 --> 00:12:08.640
+spend quite a bit of time manually hand picking 
+the problems which we thought were interesting.
+
+00:12:10.560 --> 00:12:14.240
+Our generator was only able to produce 
+problems which have a valid solution  
+
+00:12:14.880 --> 00:12:22.320
+but one important distinction which we didn't 
+really realize was going to be so important
+
+00:12:22.320 --> 00:12:28.640
+was that some problems have solutions which 
+with zero dislikes and other problems don't.
+
+00:12:29.600 --> 00:12:34.000
+As you'll see later on some teams were able 
+to recognize which problems were which and use  
+
+00:12:34.000 --> 00:12:42.160
+different strategies depending on if they thought 
+the the problem had a zero dislike solution.
+
+00:12:42.160 --> 00:12:48.320
+It's often customary in the ICFP Programming 
+Contest that after the first 24 hours of the  
+
+00:12:48.320 --> 00:12:53.040
+contest, the lightning division, new rules are 
+introduced. I think this variety is also  
+
+00:12:53.040 --> 00:12:58.800
+one of the things I like about the contest.
+We wanted to add rules that weren't too disruptive  
+
+00:12:58.800 --> 00:13:03.440
+so people didn't have to completely throw away 
+their code. We also wanted something that  
+
+00:13:03.440 --> 00:13:09.280
+was more or less optional. This was a bit 
+inspired by the bonuses in 2019 where you could  
+
+00:13:09.280 --> 00:13:16.160
+pick up items on the map for your worker-wrapper robots.
+However we thought it would be more interesting  
+
+00:13:16.160 --> 00:13:21.600
+if bonuses would unlock advantages not in the 
+problem you picked them up, but in other problems.
+
+00:13:21.600 --> 00:13:27.360
+This way you often have to make this trade-off 
+if you want to slightly improve your score or  
+
+00:13:28.320 --> 00:13:34.480
+actually get a slightly worse score on the current 
+problem to possibly improve your score on another  
+
+00:13:34.480 --> 00:13:39.680
+problem by unlocking a bonuses. So you really need 
+to be looking at the big picture and not just  
+
+00:13:39.680 --> 00:13:45.120
+sort of problem per problem. What is even more 
+interesting is that it turned out to be reasonably  
+
+00:13:45.120 --> 00:13:51.200
+simple to write validation logic for this that 
+allows for cyclic dependencies in the bonuses  
+
+00:13:51.200 --> 00:13:58.080
+in between problems. We were very curious 
+about how participants were going to approach that.
+
+00:14:02.000 --> 00:14:07.920
+We ended up introducing four types of 
+bonuses during the duration of the contest.
+
+00:14:08.800 --> 00:14:12.640
+All the bonuses allow you 
+to gain some small advantage  
+
+00:14:13.920 --> 00:14:21.120
+but they aren't really enough to make 
+you win just on their own,  
+
+00:14:22.000 --> 00:14:29.520
+if your solver is not very good 
+at solving the rest of the problem. 
+
+00:14:29.520 --> 00:14:36.640
+The new bonuses were added at the 24 36 and 48 hour marks.
+Whenever we added bonuses we also modified the  
+
+00:14:36.640 --> 00:14:42.640
+existing problems to include those bonuses. 
+We added new problems at the same time as well.
+
+00:14:46.080 --> 00:14:53.840
+Let's talk about internals just for a little bit.
+We had this sort of big mono repository in
+
+00:14:53.840 --> 00:14:59.920
+Haskell that contained around 12 different 
+tools for various things and most importantly  
+
+00:14:59.920 --> 00:15:07.520
+the judge and the web portal. Around 8000 lines,
+and there was this focus on correctness of course.
+
+00:15:07.520 --> 00:15:14.720
+Not on speed because even if we wrote 
+the judge in kind a slow way,
+
+00:15:16.080 --> 00:15:22.000
+checking that solutions are correct is still a lot 
+faster than generating solutions to the problems.
+
+00:15:23.440 --> 00:15:31.040
+This code is all open source by the way. 
+You can find it on our website. We used nix to build  
+
+00:15:31.040 --> 00:15:36.960
+Docker images based on these these Haskell 
+tools and we had three of these images running  
+
+00:15:37.600 --> 00:15:44.400
+on Amazon AWS: one database instance, 
+one machine running the web portal,  
+
+00:15:45.120 --> 00:15:49.920
+and one machine running the judge.
+Our infrastructure was sponsored by Fugue.
+
+00:15:50.960 --> 00:15:56.160
+It was important for us to separate the 
+judge from the web portal. This ensured that  
+
+00:15:56.160 --> 00:16:01.760
+people could try to DDOS the web portal but 
+not the judge itself. We didn't really have  
+
+00:16:01.760 --> 00:16:06.960
+any issues throughout the contest. At one point 
+the judging became slower and we added another  
+
+00:16:07.520 --> 00:16:12.080
+judging machine, but then fixed the actual issue, 
+which was some indices we were missing from  
+
+00:16:12.080 --> 00:16:17.600
+the database. After we did that everything 
+was fine again and we were able to scale down.
+
+00:16:20.400 --> 00:16:27.680
+We also had a separate GitHub pages site to 
+host a bunch of static things, and we set up  
+
+00:16:27.680 --> 00:16:32.640
+a Discord instance because we really liked 
+the social aspect of last year's Contest  
+
+00:16:32.640 --> 00:16:37.680
+where participants could kind of discuss with 
+each other without giving too much away. 
+
+00:16:37.680 --> 00:16:42.800
+We used a private one for organizing and then 
+public one for the participants to socialize.
+
+00:16:45.440 --> 00:16:53.840
+In total 73 226 solutions were 
+submitted and 214 teams took part.
+
+00:16:54.560 --> 00:17:01.760
+The teams were from all over the world, 
+but primarily from the US, Russia and Japan.
+
+00:17:04.160 --> 00:17:11.920
+272 distinct bonuses were used by the teams. 
+On average teams solved or submitted valid solutions  
+
+00:17:11.920 --> 00:17:17.182
+for 55 out of 132 puzzles.
+
+00:17:17.475 --> 00:17:22.661
+We also took a look at the puzzles that teams
+had the most trouble with solving.
+
+00:17:22.661 --> 00:17:28.320
+So problems that we had the least
+amount of valid solutions for among teams.
+
+00:17:28.320 --> 00:17:33.200
+Less than 50 teams 
+were able to solve these puzzles  
+
+00:17:33.200 --> 00:17:38.240
+so congrats to those who did.
+The third place is shared by an octopus and a reference  
+
+00:17:38.240 --> 00:17:42.320
+to the paper Functional Programming with 
+Bananas Lenses Envelopes and Barbed Wire.
+
+00:17:43.520 --> 00:17:46.400
+The two hardest puzzles 
+were both randomly generated.
+
+00:17:47.280 --> 00:17:53.520
+One is this figure with a convex hole around that 
+needs to be fit in this strangely shaped hole.
+
+00:17:53.520 --> 00:18:00.560
+The hardest puzzle was just a very big randomly 
+generated one that looks complex and funky.
+
+00:18:02.380 --> 00:18:08.860
+So we we were surprised by how many people 
+appeared to solve problems manually with the  
+
+00:18:08.860 --> 00:18:13.900
+help of tools that they developed. 
+We were quite pleased by this because  
+
+00:18:13.900 --> 00:18:18.780
+it signified a departure from the usual 
+challenge of programming good solvers, 
+
+00:18:19.500 --> 00:18:26.780
+to instead programming good tools.
+Another surprise was a team that allegedly used FreeCAD  
+
+00:18:27.340 --> 00:18:31.420
+to model the problem and create a solver,
+which we thought was very ingenious.
+
+00:18:33.900 --> 00:18:39.580
+This is the part we've all been waiting for. 
+We'll introduce the winners one by one, starting with  
+
+00:18:39.580 --> 00:18:45.340
+the Judges Prize. Each team will then have a chance 
+to give a short explanation of their solution.
+
+00:18:46.940 --> 00:18:48.780
+And the judge's price goes to...
+
+00:18:51.420 --> 00:18:57.100
+manarimo! After going through the submitted 
+source code and solutions we've awarded the  
+
+00:18:57.100 --> 00:19:02.380
+Judges Prize to team manarimo. We picked them 
+for their interesting use of Linear Programming  
+
+00:19:03.180 --> 00:19:10.060
+they used to pick out bonuses, as well as the 
+creative use of those bonuses for other problems.
+
+00:19:10.280 --> 00:19:18.120
+Hello everyone, we are Manarimo. it's an honor 
+for us to give a presentation at 2021 ICFP.  
+
+00:19:19.160 --> 00:19:25.640
+In this presentation, firstly I'll introduce 
+our team members. Secondly, I will tell you  
+
+00:19:25.640 --> 00:19:32.040
+how we tackled the problem. Thirdly, I will 
+show you our visualizer as well as dashboard.  
+
+00:19:32.600 --> 00:19:37.800
+Finally, I'll explain how we 
+managed the bonuses. Let's begin.
+
+00:19:38.760 --> 00:19:45.160
+This is our team members and this 
+is our approach. For small problems,  
+
+00:19:45.160 --> 00:19:52.040
+we backtracked all possible arrangements of 
+verses and took the best one. For problems  
+
+00:19:52.680 --> 00:20:00.200
+known having the score 0 solution or seemingly 
+having the score 0 solution, we used our hands  
+
+00:20:00.200 --> 00:20:08.680
+to find the best one. Otherwise, we repetitively 
+applied the simulated annealing and manual tweaks.  
+
+00:20:09.320 --> 00:20:15.960
+For simulated annealing, as penalties we use 
+the distance of vertices outside from the hole,  
+
+00:20:16.520 --> 00:20:22.040
+the number of edges not fitting the hole, the 
+error in edge length from the constraints.
+
+00:20:23.240 --> 00:20:26.840
+These penalties are weighted 
+and added to the dislike score.  
+
+00:20:28.680 --> 00:20:36.040
+As initial states for the simulated annealing, 
+we use rotated or flipped original posture.  
+
+00:20:36.760 --> 00:20:44.360
+This is our visualizer. You can move vertices. You 
+can see whether an edge satisfies the constraints  
+
+00:20:44.360 --> 00:20:51.160
+based on the color. And if it exists, this 
+visualizer will tell you the best position  
+
+00:20:51.160 --> 00:20:56.280
+of the vertex where all connected 
+edges satisfy the constraints.
+
+00:20:58.360 --> 00:21:04.040
+These solutions are managed on the git 
+and our script generates this dashboard.
+
+00:21:08.280 --> 00:21:16.920
+let me explain how we handle the bonus. So as you 
+know, for each problem, we can decide whether we  
+
+00:21:16.920 --> 00:21:26.200
+use a bonus, we take bonuses, we use a bonus to 
+take bonuses, and to maximize the submission score  
+
+00:21:26.200 --> 00:21:34.200
+we need to find the best combination. To find it 
+we use the integer programming solver called PuLP.
+
+00:21:37.640 --> 00:21:44.280
+That's all from us finally we'd like to give 
+a huge kudos to organizers for holding  
+
+00:21:44.280 --> 00:21:50.680
+such amazing high quality competitions. We've 
+really enjoyed solving the Brain Wall problems.  
+
+00:21:51.720 --> 00:21:54.600
+Thanks for watching.
+
+00:21:55.780 --> 00:21:59.112
+For the Third prize...
+
+00:21:59.337 --> 00:22:02.820
+Special Weekend takes the Third prize!
+
+00:22:02.820 --> 00:22:06.740
+But not only that: they also are the 
+winner of the Lightning Division! 
+
+00:22:06.740 --> 00:22:12.660
+Congratulations to them! Here's a short 
+video that they made explaining their solution.
+
+00:22:13.860 --> 00:22:14.740
+Hello everyone!
+
+00:22:15.540 --> 00:22:22.420
+We participated the contest as team 
+“Special Weekend” with 7 members shown here. 
+
+00:22:23.860 --> 00:22:26.580
+We used Rust language for the backend solvers,  
+
+00:22:27.540 --> 00:22:31.140
+while typescript and Go were 
+used for the human-interaction.  
+
+00:22:33.940 --> 00:22:41.140
+Types saved us the day.
+Our team was named after a pun on a racehorse,  
+
+00:22:41.700 --> 00:22:47.620
+a Japanese game, and of course the contest 
+proper, which was held on a weekend of July.
+
+00:22:51.700 --> 00:22:57.620
+We made several solvers during the contest. The 
+main solver was based on the simulated annealing  
+
+00:22:57.620 --> 00:23:05.540
+method. More than 95% of the submissions from 
+our team were based on solutions generated  
+
+00:23:05.540 --> 00:23:11.860
+by this solver. The left panel visualizes 
+how solutions are searched in our solver. 
+
+00:23:14.660 --> 00:23:18.660
+In this game, we need to find 
+solutions satisfying two constraints:  
+
+00:23:19.620 --> 00:23:27.060
+(1) all vertices must be inside the hole, and 
+(2) edge lengths have distance restraints.  
+
+00:23:28.180 --> 00:23:32.260
+We achieved these goals by 
+always keeping the constraint 1  
+
+00:23:33.220 --> 00:23:38.660
+and converting the constraint 2 to the 
+penalty terms in the score calculation. 
+
+00:23:41.540 --> 00:23:47.860
+In the simulated annealing method, each cycle 
+the solver proposes a new, slightly modified  
+
+00:23:47.860 --> 00:23:53.380
+solution from the current one. Then the 
+algorithm probabilistically chooses whether  
+
+00:23:53.380 --> 00:24:00.340
+to accept the new solution. We used several 
+types of proposals, which we call neighbors,  
+
+00:24:00.900 --> 00:24:07.860
+in the solver. Three major choices of neighbors 
+are shown here, moving a vertex, moving an edge,  
+
+00:24:07.860 --> 00:24:12.980
+and moving an entire triangle to find 
+a better solution than the current one.
+
+00:24:16.020 --> 00:24:22.020
+Ideally the solver programs should produce the 
+best possible poses, but it's not practical,  
+
+00:24:22.020 --> 00:24:26.660
+especially for the lightning division. 
+We need manual labor to some extent.  
+
+00:24:28.660 --> 00:24:35.300
+In this year's contest, we've created a UI 
+that assists humans to explore possible poses.  
+
+00:24:36.820 --> 00:24:43.700
+You can move the vertices on a browser and 
+visualize the constraints and shows the score.  
+
+00:24:45.380 --> 00:24:50.420
+The hand-crafted poses were good candidates 
+for the initial input to the solver programs.  
+
+00:24:51.700 --> 00:24:53.860
+This is written in TypeScript.
+
+00:24:56.900 --> 00:24:59.300
+With this hand solver and the solver programs,  
+
+00:24:59.940 --> 00:25:05.940
+we get many possible poses. We've created 
+a server for collecting those poses  
+
+00:25:06.500 --> 00:25:16.660
+and showing the best ones. This is written 
+in Go, MySQL, React, and TypeScript.
+
+00:25:24.790 --> 00:25:28.008
+The Second prize in the Full Division goes to...
+ 
+
+00:25:28.008 --> 00:25:33.872
+Unagi! A familiar name in the ICFP
+Programming Contest Community.
+
+00:25:33.872 --> 00:25:40.550
+Congratulations to them! They 
+also have a short video explaining their solution.
+
+00:25:41.150 --> 00:25:44.670
+Hi, I am Takuya Akiba from Team Unagi.  
+
+00:25:45.470 --> 00:25:51.710
+Today, I am going to present our 
+solution for this year's ICFP contest.
+
+00:25:53.230 --> 00:25:59.630
+First of all, this is a rough sketch of 
+our solution overview. To solve problems,  
+
+00:26:00.270 --> 00:26:05.070
+we created several automatic solvers. In addition,  
+
+00:26:05.630 --> 00:26:12.190
+we also solved some problems manually starting 
+from partial solutions generated by solvers.  
+
+00:26:13.550 --> 00:26:21.710
+We developed our own solution server to manage 
+solutions. Solvers continuously try to improve  
+
+00:26:21.710 --> 00:26:28.590
+solutions through interaction with the 
+solution server. The bonus selector optimizes  
+
+00:26:28.590 --> 00:26:34.830
+the combination of bonuses and submits the 
+whole solution set to the official portal.
+
+00:26:37.630 --> 00:26:44.670
+For some problems, we can achieve 0 
+dislike value. Due to the scoring rule,  
+
+00:26:45.470 --> 00:26:54.430
+it is very important to achieve 0 dislikes for 
+these problems. So, we developed approaches to  
+
+00:26:54.430 --> 00:27:03.230
+exactly solve these problems. One approach is 
+to conduct backtracking searches with pruning.  
+
+00:27:04.830 --> 00:27:11.630
+We used backtracking searches to find 
+complete 0 dislike solutions as well as  
+
+00:27:11.630 --> 00:27:15.470
+partial solutions for heuristic 
+solvers and manual work.  
+
+00:27:17.550 --> 00:27:23.390
+One of the successful pruning approaches 
+was to use shortest path distances.
+
+00:27:26.590 --> 00:27:34.590
+Like other teams, we solved a few problems by 
+hand. To that end, we developed a dedicated  
+
+00:27:35.230 --> 00:27:42.830
+GUI tool. It equips intuitive 
+visualization of unsatisfied constraints.  
+
+00:27:43.710 --> 00:27:49.230
+This tool was also developed in 
+rust and compiled to WebAssembly.
+
+00:27:52.750 --> 00:27:56.750
+The other problems are solved 
+by heuristic approaches  
+
+00:27:57.310 --> 00:28:04.510
+that aim to achieve as small dislike values 
+as possible. The main heuristic approach  
+
+00:28:04.510 --> 00:28:10.510
+was simulated annealing. During the 
+search, instead of hard constraints,  
+
+00:28:11.150 --> 00:28:16.590
+we used soft constraints by introducing 
+penalties in the scoring function.
+
+00:28:18.350 --> 00:28:25.310
+In addition to simulated annealing, we also 
+used SAT solvers. We translated the problem  
+
+00:28:25.310 --> 00:28:32.670
+to improve the score while satisfying all 
+constraints into a SAT instance. We improved  
+
+00:28:32.670 --> 00:28:44.590
+scores by repeatedly solving SAT instances 
+by using state-of-the-art SAT solver Glucose.
+
+00:28:45.310 --> 00:28:52.590
+We used plenty of computation power to run 
+these solvers. We used Google Compute Engine.  
+
+00:28:53.630 --> 00:29:01.710
+For solving our own solution server we also used 
+modern managed services such as Google Cloud Run.
+
+00:29:03.870 --> 00:29:05.550
+Thank you for listening
+
+00:29:09.370 --> 00:29:12.353
+All right, and finally the first prize goes to...
+  
+
+00:29:12.353 --> 00:29:15.850
+the awesome hackers from RGBTeam.
+
+00:29:15.850 --> 00:29:21.690
+Congratulations! Here's their 
+video explaining their solution.
+
+00:29:23.050 --> 00:29:29.610
+Hello everyone, my name is Roman Udovichenko. I'm 
+from RGBteam and I want to share with you some  
+
+00:29:29.610 --> 00:29:39.530
+of the ideas of our solution to this year's ICFPC 
+problem. The main idea was to use manual solution,  
+
+00:29:40.250 --> 00:29:49.850
+so one of the first things that we did at the 
+contest was to get the application that allows  
+
+00:29:49.850 --> 00:29:57.930
+manual vertices dragging and highlights edges or 
+vertices that are bad because of their position  
+
+00:29:57.930 --> 00:30:05.930
+or length. As far as fully manual solving is 
+boring and quite ineffective, we programmed a  
+
+00:30:05.930 --> 00:30:17.610
+lot of so-called helpers. and one of the main 
+helpers was using the idea of springs and  
+
+00:30:17.610 --> 00:30:24.410
+at every iteration this helper shrinked the edges 
+with lengths less than required and expanded  
+
+00:30:24.410 --> 00:30:31.450
+the edges with lengths more than required 
+and we could do as many iterations as we want  
+
+00:30:31.450 --> 00:30:37.930
+until we get desired result. and 
+one of the useful modifications  
+
+00:30:38.490 --> 00:30:47.610
+allowed to fix positions of some vertices and they 
+remained in place during this spring simulation.  
+
+00:30:49.130 --> 00:30:57.050
+Another great helper was called fixer and its 
+idea was to take a solution with a few invalid  
+
+00:30:57.050 --> 00:31:06.170
+edges and do some sort of local optimizations to 
+create a fully valid solution. This helper was  
+
+00:31:06.170 --> 00:31:14.010
+used after manual fixes and greatly reduced amount 
+of manual work at the final stage of constructing  
+
+00:31:14.010 --> 00:31:22.330
+the solution because when there are one or 
+two invalid edges and you are struggling a lot  
+
+00:31:22.330 --> 00:31:30.890
+in order to get them correct so you spend 
+a lot of time on it then this helper fixer  
+
+00:31:32.890 --> 00:31:42.810
+was very very useful. And then there were 
+different local optimization helpers to improve  
+
+00:31:42.810 --> 00:31:50.250
+the score and they all took a valid solution and 
+tried to modify it in some way to get another  
+
+00:31:50.250 --> 00:31:58.170
+valid solution with a better score. So the whole 
+process was like this: we take the test case,  
+
+00:31:58.890 --> 00:32:06.490
+we construct any valid solution manually, and then 
+we improve it with different local optimizations  
+
+00:32:06.490 --> 00:32:16.730
+or heuristics, and then we maybe modify it 
+manually in order to jump from local minima and  
+
+00:32:16.730 --> 00:32:23.850
+then we improve it again with local optimization 
+and we repeat this process until we are tired.
+
+00:32:25.290 --> 00:32:32.170
+So what about these optimizations. 
+We used a lot of them:  
+
+00:32:32.810 --> 00:32:38.410
+Starting from take one vertex try to move it 
+up down left right and see if score improves.  
+
+00:32:40.250 --> 00:32:51.130
+Also, we used brute force for small 
+subsets: so we take some nearby vertices.  
+
+00:32:52.010 --> 00:32:59.370
+Something about three or four or maybe seven 
+depending on the test case and this brute force  
+
+00:33:02.730 --> 00:33:05.770
+fixed all vertices except this  
+
+00:33:05.770 --> 00:33:10.890
+selected subset and then tried to find 
+the best positions for selected vertices.
+
+00:33:13.050 --> 00:33:21.450
+One of the main heuristics was simulated 
+annealing. It gave a lot of best results  
+
+00:33:21.450 --> 00:33:30.890
+for many of the test cases. We also run it with 
+different parameters and some worked well for  
+
+00:33:31.450 --> 00:33:36.490
+one test cases, some for another, 
+so we experimented with it a lot.  
+
+00:33:38.490 --> 00:33:42.250
+One more helper was brute force 
+that tried to find the solution  
+
+00:33:42.250 --> 00:33:47.770
+with zero score and there were a lot of 
+heuristics to make it work fast enough and  
+
+00:33:48.730 --> 00:33:55.930
+it worked really well for some of the test 
+cases, and we achieved a perfect score on them.
+
+00:33:58.650 --> 00:34:06.010
+At last, we did not use bonuses at all and 
+didn't consider them during optimizations  
+
+00:34:06.010 --> 00:34:09.210
+except for a few cases where we manually collected  
+
+00:34:09.210 --> 00:34:14.970
+GLOBALIST bonus and used it in order to 
+get improvement in corresponding cases.
+
+00:34:16.410 --> 00:34:21.290
+I think that's it. Thank you 
+for your attention and goodbye.
+
+00:34:23.930 --> 00:34:29.140
+For the official documents we would like 
+to make the following declarations:
+
+00:34:29.228 --> 00:34:33.949
+C++ and Rust are the programming tools of choice 
+for discriminating hackers.
+
+00:34:34.116 --> 00:34:37.454
+Rust is a fine programming tool for many applications.
+
+00:34:37.454 --> 00:34:41.148
+Rust, TypeScript and Go are also not too shabby.
+
+00:34:41.290 --> 00:34:44.970
+Rust, TypeScript and go are very 
+suitable for rapid prototyping.
+
+00:34:45.930 --> 00:34:49.850
+Last but not least, manarimo are 
+an extremely cool bunch of hackers. 
+
+00:34:51.050 --> 00:34:56.090
+These four teams though, are not the only teams 
+that have explained how they approached the problem.  
+
+00:34:56.090 --> 00:35:00.730
+Many other teams have also posted write-ups 
+on their websites and we've posted links  
+
+00:35:00.730 --> 00:35:05.290
+to these on our homepage, so if you're 
+interested in that be sure to check it out.
+
+00:35:06.010 --> 00:35:10.250
+Finally, we'd like to thank the following 
+people who helped us along the way.
+
+00:35:13.530 --> 00:35:20.010
+And finally, thank you for listening. If you have 
+any questions, there should be a Q&A session  
+
+00:35:20.730 --> 00:35:22.581
+and we'll try to answer them.
+
+00:35:24.872 --> 00:35:26.005
+Thanks.
+
+00:35:26.581 --> 00:35:27.484
+Thank you.

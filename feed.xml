@@ -3,11 +3,25 @@
   <title>ICFP Contest 2021</title>
   <link href="https://icfpcontest2021.github.io/"/>
   <link href="https://icfpcontest2021.github.io/feed.xml" rel="self"/>
-  <updated>2021-08-26T14:48:13+00:00</updated>
+  <updated>2021-08-31T13:00:45+00:00</updated>
   <author>
     <name>ICFP Contest 2021 Organisers</name>
   </author>
   <id>https://icfpcontest2021.github.io/</id>
+    <entry>
+      <title>Contest Presentation Video</title>
+      <link href="https://icfpcontest2021.github.io/"/>
+      <id>https://icfpcontest2021.github.io/#018-contest-presentation-video</id>
+      <updated>2021-08-31T12:00:00+00:00</updated>
+      <summary type="html"><![CDATA[<video id="contest-presentation" controls playsinline>
+  <source src="assets/contest-presentation.mp4" type="video/mp4">
+  <track label="English" kind="subtitles" srclang="en" src="assets/contest-presentation.vtt" default>
+</video>
+<p>
+  You can now watch the contest presentation video right here or
+  <a href="https://youtu.be/mHk6CtirN7g?t=90">on YouTube</a>.
+</p>]]></summary>
+    </entry>
     <entry>
       <title>Final Results, Winners Announced</title>
       <link href="https://icfpcontest2021.github.io/"/>
@@ -93,7 +107,7 @@
   presentation at ICFP 2021.  Thanks again to everyone for taking part in this!
 </p>
 <div style="text-align: center">
-  <img src="images/animation-01.svg" style="max-width: 300px; margin: 0 auto">
+  <img src="assets/animation-01.svg" style="max-width: 300px; margin: 0 auto">
 </div>]]></summary>
     </entry>
     <entry>
