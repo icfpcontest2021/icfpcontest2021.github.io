@@ -3,6 +3,7 @@ UPDATES=$(shell find updates -type f)
 build: \
 	_site/about.html \
 	_site/assets/animation-01.svg \
+	_site/assets/contest-presentation.jpg \
 	_site/assets/contest-presentation.mp4 \
 	_site/assets/contest-presentation.vtt \
 	_site/assets/logo.svg \
